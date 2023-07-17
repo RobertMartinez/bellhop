@@ -9,6 +9,8 @@ function checkAccess() {
   var expectedCode = 'password'; // Expected password, you can change it as needed
 
   if (accessCode === expectedCode.toLowerCase()) { // Convert to lowercase for comparison
+    // Set a flag to indicate successful access
+    sessionStorage.setItem('accessGranted', 'true');
     window.location.href = 'second-page.html';
   } else {
     alert('Incorrect access code. Please try again.');
