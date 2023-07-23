@@ -1,3 +1,27 @@
+/* CSS for larger screens */
+@media only screen and (min-width: 600px) {
+
+    body,
+    h1,
+    p {
+        font-size: 16px;
+    }
+
+    /* More styles for larger screens if required */
+}
+
+/* CSS for mobile screens */
+@media only screen and (max-width: 599px) {
+
+    body,
+    h1,
+    p {
+        font-size: 22px;
+    }
+
+    /* More styles for smaller screens if required */
+}
+
 body.landing {
     background: url('landing-page.png') no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -42,7 +66,7 @@ p {
     width: 100%;
 }
 
-form-control {
+.form-control {
     width: 100%;
     /* Adjust as needed */
 }
