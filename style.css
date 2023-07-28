@@ -1,6 +1,14 @@
 /* CSS for larger screens */
 @media only screen and (min-width: 600px) {
 
+    body.landing {
+        background: url('landing-page.png') no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
     body,
     h1,
     p {
@@ -13,6 +21,14 @@
 /* CSS for mobile screens */
 @media only screen and (max-width: 599px) {
 
+    body.landing {
+        background: url('mobile-landing-page.png') no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
     body,
     h1,
     p {
@@ -22,13 +38,13 @@
     /* More styles for smaller screens if required */
 }
 
-body.landing {
+/* body.landing {
     background: url('landing-page.png') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-}
+} */
 
 body.second-page {
     background-color: lightgray;
@@ -62,10 +78,10 @@ img {
     flex-grow: 2;
 }
 
-h1,
+/* h1,
 p {
     margin: 0.5em 0;
-}
+} */
 
 .input-group {
     width: 100%;
