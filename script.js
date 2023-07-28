@@ -13,6 +13,6 @@ function checkAccess() {
     sessionStorage.setItem('accessGranted', 'true');
     window.location.href = 'second-page.html';
   } else {
-    alert('Incorrect access code. Please try again.');
+    alert('So close, darling! Try again!');
   }
 }
