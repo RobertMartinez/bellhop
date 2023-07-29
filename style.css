@@ -24,7 +24,7 @@ p {
 
 
 /* CSS for mobile screens */
-@media only screen and (max-width: 808px) {
+@media only screen and (max-width: 1500px) {
 
     body.landing {
         background: url('mobile-landing-page.png') no-repeat center center fixed;
