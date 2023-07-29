@@ -1,30 +1,30 @@
 /* CSS for larger screens */
-@media only screen and (min-width: 900px) {
 
-    body.landing {
-        background: url('mobile-landing-page.png') no-repeat center center fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-    }
 
-    body,
-    h1,
-    p {
-        font-size: 16px;
-    }
-
-    #logo img {
-        max-width: 400px;
-        /* Adjust size as needed */
-        height: auto;
-    }
-    /* More styles for larger screens if required */
+body.landing {
+    background: url('landing-page.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
+body,
+h1,
+p {
+    font-size: 16px;
+}
+
+#logo img {
+    max-width: 400px;
+    /* Adjust size as needed */
+    height: auto;
+}
+/* More styles for larger screens if required */
+
+
 /* CSS for mobile screens */
-@media only screen and (max-width: 899px) {
+@media only screen and (max-width: 808px) {
 
     body.landing {
         background: url('mobile-landing-page.png') no-repeat center center fixed;
@@ -47,14 +47,6 @@
     }
     /* More styles for smaller screens if required */
 }
-
-/* body.landing {
-    background: url('landing-page.png') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-} */
 
 body.second-page {
     background-color: lightgray;
