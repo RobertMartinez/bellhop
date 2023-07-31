@@ -46,6 +46,11 @@ p {
         height: auto;
     }
     /* More styles for smaller screens if required */
+    
+    .form-control {
+        font-size: 16px;
+        padding: 12px 20px;
+    }
 }
 
 body.second-page {
